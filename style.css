@@ -300,6 +300,91 @@ hr {
         gap: 15px;
     }
 
+}
+
+/* Mobile Devices */
+
+/* Tablet */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    header {
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .header-info {
+        color: white;
+        margin-top: 55px;
+        margin-left: 65px;
+        margin-bottom: 65px;
+        margin-right: 2px;
+
+    }
+
+    .header-title {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 8px;
+        margin-top: 0%;
+    }
+
+    .header-info p {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .header-img {
+        width: 70%;
+        margin-top: 60px;
+
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menus {
+        display: flex;
+        width: 94%;
+        height: 9px;
+        margin-bottom: 30px;
+        background-color: white;
+
+
+    }
+
+    .menu {
+        border: 1px solid rgb(232, 225, 225);
+        margin-right: 22px;
+        padding: 5px 65px;
+        font-size: 12;
+
+    }
+
+    .padding {
+        padding: 5px 80px;
+    }
+
+    .menu3 {
+        border: 1px solid rgb(232, 225, 225);
+        padding: 17px 80px;
+
+    }
+
+
+
+    footer {
+        display: none;
+    }
 
 }
 
