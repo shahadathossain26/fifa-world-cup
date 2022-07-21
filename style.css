@@ -58,6 +58,12 @@ header {
     background-color: #DD0000;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.watch-live:hover {
+    background-image: linear-gradient(royalblue, skyblue);
+
 }
 
 .watch-live a {
@@ -193,9 +199,7 @@ hr {
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
-    body {
-        width: 99%;
-    }
+
 
     .container {
         margin-top: 40px;
@@ -204,7 +208,7 @@ hr {
     }
 
     header {
-        width: 90%;
+        width: 94%;
         flex-direction: column;
         margin-bottom: 20px;
     }
@@ -220,7 +224,7 @@ hr {
     }
 
     .header-title {
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 700;
         text-align: center;
 
